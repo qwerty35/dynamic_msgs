@@ -17,6 +17,8 @@ add_message_files(
    FILES
    Trajectory.msg
    TrajectoryPoint.msg
+   ObstacleArray.msg
+   Obstacle.msg
 )
 
 
