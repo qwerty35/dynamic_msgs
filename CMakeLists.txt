@@ -19,6 +19,9 @@ add_message_files(
    TrajectoryPoint.msg
    ObstacleArray.msg
    Obstacle.msg
+   RSFC.msg
+   RSFC_obstacle.msg
+   RSFC_segment.msg
 )
 
 
