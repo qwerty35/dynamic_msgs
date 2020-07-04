@@ -1,3 +1,4 @@
 std_msgs/Header header
 uint32 planner_seq
-TrajectoryPoint[] trajectory
+float64 dt
+ObstaclePredicted[] obstacles

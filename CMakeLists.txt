@@ -15,6 +15,7 @@ find_package(catkin REQUIRED COMPONENTS
 
 add_message_files(
    FILES
+   TrajectoryArray.msg
    Trajectory.msg
    TrajectoryPoint.msg
    ObstacleArray.msg
@@ -22,6 +23,9 @@ add_message_files(
    RSFC.msg
    RSFC_obstacle.msg
    RSFC_segment.msg
+   TrajectoryRawArray.msg
+   TrajectoryRawSegment.msg
+   TrajectoryRawCtrlPts.msg
 )
 
 
