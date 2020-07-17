@@ -26,6 +26,7 @@ add_message_files(
    TrajectoryRawArray.msg
    TrajectoryRawSegment.msg
    TrajectoryRawCtrlPts.msg
+   PlanningResult.msg
 )
 
 
