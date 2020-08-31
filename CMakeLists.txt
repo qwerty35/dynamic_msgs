@@ -27,6 +27,7 @@ add_message_files(
    TrajectoryRawSegment.msg
    TrajectoryRawCtrlPts.msg
    PlanningReport.msg
+   FullState.msg
 )
 
 
