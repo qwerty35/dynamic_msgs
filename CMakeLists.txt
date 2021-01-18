@@ -17,7 +17,7 @@ add_message_files(
    FILES
    TrajectoryArray.msg
    Trajectory.msg
-   TrajectoryPoint.msg
+   State.msg
    ObstacleArray.msg
    Obstacle.msg
    RSFC.msg
@@ -27,7 +27,6 @@ add_message_files(
    TrajectoryRawSegment.msg
    TrajectoryRawCtrlPts.msg
    PlanningReport.msg
-   FullState.msg
 )
 
 
