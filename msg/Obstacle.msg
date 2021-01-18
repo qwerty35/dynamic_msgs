@@ -5,3 +5,5 @@ float32 max_acc
 geometry_msgs/Pose pose
 geometry_msgs/Twist velocity
 bool is_agent
+geometry_msgs/Point goal_point
+uint32 id
