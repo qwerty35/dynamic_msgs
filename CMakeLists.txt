@@ -18,6 +18,7 @@ add_message_files(
    TrajectoryArray.msg
    Trajectory.msg
    State.msg
+   FullState.msg
    ObstacleArray.msg
    Obstacle.msg
    RSFC.msg
