@@ -1,9 +1,10 @@
 std_msgs/Header header
-float32 size
+uint32 id
+uint32 type
+float32 radius
 float32 downwash
 float32 max_acc
 geometry_msgs/Pose pose
 geometry_msgs/Twist velocity
-bool is_agent
 geometry_msgs/Point goal_point
-uint32 id
+float32[] dimensions

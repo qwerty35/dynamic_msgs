@@ -1,3 +1,4 @@
 std_msgs/Header header
-time start_time
+uint32 planner_seq
 Obstacle[] obstacles
+time start_time
