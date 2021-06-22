@@ -21,12 +21,8 @@ add_message_files(
    FullState.msg
    ObstacleArray.msg
    Obstacle.msg
+   RSFCArray.msg
    RSFC.msg
-   RSFC_obstacle.msg
-   RSFC_segment.msg
-   TrajectoryRawArray.msg
-   TrajectoryRawSegment.msg
-   TrajectoryRawCtrlPts.msg
    PlanningReport.msg
 )
 

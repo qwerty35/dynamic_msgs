@@ -1,1 +1,0 @@
-TrajectoryRawCtrlPts[] segments
