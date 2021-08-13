@@ -30,17 +30,20 @@ add_message_files(
    GoalArray.msg
 )
 
+add_service_files(
+  FILES
+  UpdateGoals.srv
+)
 
 ## Generate added messages and services with any dependencies listed here
  generate_messages(
    DEPENDENCIES
+   roscpp
    std_msgs
    nav_msgs
    sensor_msgs
    geometry_msgs
-   roscpp
  )
-
 
 catkin_package(
   CATKIN_DEPENDS roscpp std_msgs message_runtime message_generation)
