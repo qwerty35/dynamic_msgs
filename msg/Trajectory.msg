@@ -1,2 +1,3 @@
 std_msgs/Header header
-State[] trajectory
+uint32 planner_seq
+TrajectoryPoint[] trajectory
