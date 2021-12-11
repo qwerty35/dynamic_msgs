@@ -6,5 +6,4 @@ float32 downwash
 float32 max_acc
 geometry_msgs/Pose pose
 geometry_msgs/Twist velocity
-geometry_msgs/Point goal_point
-float32[] dimensions
+geometry_msgs/Point goal
