@@ -7,3 +7,4 @@ float32 max_acc
 geometry_msgs/Pose pose
 geometry_msgs/Twist velocity
 geometry_msgs/Point goal
+Trajectory prev_traj

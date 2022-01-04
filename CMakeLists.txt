@@ -16,12 +16,13 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
    FILES
    Param.msg
-   TrajectoryArray.msg
    Trajectory.msg
+   TrajectoryArray.msg
    State.msg
    FullState.msg
-   ObstacleArray.msg
+   Position.msg
    Obstacle.msg
+   ObstacleArray.msg
    CollisionConstraint.msg
    RSFC.msg
    SFC.msg
