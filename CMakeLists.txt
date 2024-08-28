@@ -16,6 +16,7 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
    FILES
    Param.msg
+   Segment.msg
    Trajectory.msg
    TrajectoryArray.msg
    State.msg
